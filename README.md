@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Outfit Oracle:
+Outfit Oracle is a web application that provides outfit recommendations based on various occasions and weather conditions. Whether you're attending a cocktail party, going for a yoga session, or just hanging out with friends for brunch, Outfit Oracle has got you covered with personalized outfit suggestions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
 
-## Available Scripts
+Weather-based Recommendations: Get outfit recommendations tailored to the current weather conditions in your location.
 
-In the project directory, you can run:
+Occasion-specific Suggestions: Choose from a variety of occasions such as brunch, cocktail parties, office attire, and more to receive outfit recommendations suitable for the occasion.
 
-### `npm start`
+User Authentication: Secure user authentication system allows users to sign up, log in, and access their profile.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: The app is designed to work seamlessly on desktops, tablets, and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technologies Used
 
-### `npm test`
+Frontend: React.js, Material-UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Backend: Node.js, Express.js
 
-### `npm run build`
+Database: MongoDB (Atlas)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Weather API: OpenWeatherMap API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Authentication: JSON Web Tokens (JWT)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installation
+To run the Outfit Oracle app locally, follow these steps:
 
-### `npm run eject`
+Clone this repository to your local machine.
+Install dependencies using npm install in both the client and server directories.
+Create a .env file in the server directory and add your MongoDB connection URL, OpenWeatherMap API key, and any other environment variables.
+Start the server using npm start in the server directory.
+Start the client using npm start in the client directory.
+Open your browser and navigate to http://localhost:3000 to access the app.
+Usage
+Sign up or log in to your account.
+Enter your location or allow the app to access your current location for weather-based recommendations.
+Choose an occasion or simply search for outfit recommendations.
+View the outfit suggestions along with weather information and other details.
+Click on a recommendation to see more details and styling tips.
+Contributing
+Contributions are welcome! If you'd like to contribute to the Outfit Oracle project, please follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork the repository.
+Create a new branch (git checkout -b feature/new-feature).
+Make your changes.
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature/new-feature).
+Create a new Pull Request.
