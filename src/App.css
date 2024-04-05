@@ -148,3 +148,201 @@ line-height: 2.8;
       
     }
   }
+  .loginbox{
+    margin: 60px;
+    border: 2px solid rgba(255,255,255,.2);
+    background-color:transparent;
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    
+    background-repeat: no-repeat;
+  }
+  .bglogin{
+    background:url(./images/bglogin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+  }
+  .signbg {
+    background: url(./images/bglogin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Set the height to cover the entire viewport */
+}
+  .signbox{
+
+      margin: 60px;
+      border: 2px solid rgba(255,255,255,.2);
+      background-color:transparent;
+      backdrop-filter: blur(5px);
+      background-size: cover;
+      width: 300px;
+      height: 420px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      flex-direction: column;
+      
+      background-repeat: no-repeat;
+    }
+    @media (max-width: 320px) {
+      .signbox{height: 450px;}
+      
+    }
+    .weatherhome {
+      background-image: url(./images/weatherbg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100vh; /* Ensure the background covers the entire viewport height */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .aboutpage {
+      background-image: url(./images/abt2.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: -20px;
+      height: 600px;
+      
+  font-family: "Noto Sans KR", sans-serif;
+      color:#FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:x-large;
+  }
+  .abttxt {
+    position: relative;
+    font-size: x-large;
+   
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  
+  .abttxt video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .abttxt .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:600px;
+    padding: 20px;
+  }
+  .abtcrttxt{
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  .abtval{
+    background-color: #E2DFD2;
+    background-size: cover;
+    font-family: "Noto Sans KR", sans-serif; 
+  }
+  .Footerbg{
+    background-image: url(./images/footer1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -10px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+   .fttext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E2DFD2;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 20px;
+   }
+   .getweather{
+    margin: 60px;
+    border: 2px solid rgba(255,255,255,.2);
+    background-color:transparent;
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    
+    background-repeat: no-repeat;
+   }
+   .container{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    border: 2px solid rgba(255,255,255,.2);
+    background-color:transparent;
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+   }
+   .inputfield {
+    width: 80%;
+    padding: 10px; 
+    margin-bottom: 10px;
+    background-color:transparent;
+    color:"white"
+    }
+    .searchButton,
+.locationButton {
+  width: 80%; 
+  height: 38px; 
+  margin: 5px 0;
+  color: black;
+  background-color: white;
+  border: none; 
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.searchButton:hover,
+.locationButton:hover {
+  background-color: #f0f0f0; 
+}
+.contM {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 10px;
+  margin-top: 30px;
+  justify-content: space-around;
+ 
+}
