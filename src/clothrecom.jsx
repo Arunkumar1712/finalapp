@@ -60,7 +60,7 @@ export function Recommendation() {
             No data available
           </Typography></Card>
         )}
-         <Card  sx={{ minWidth: 550, maxHeight: 300 }}>
+         <Card  sx={{ maxWidth: 550, maxHeight: 300 }}>
           <Typography
           variant="body1"
           color="text.secondary"
